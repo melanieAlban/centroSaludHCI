@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="imagenes/LogoCentroSalud.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-bed"></i>Pacientes</a></li>
+                    <li><a href=""><i class="fa-solid fa-stethoscope"></i> Médicos</a></li>
+                    <li><a href=""><i class="fa-solid fa-calendar"></i> Citas</a></li>
+                    <li><a href=""><i class="fa-solid fa-pills"></i> Medicamentos</a></li>
+                    <li><a href=""><i class="fa-solid fa-book-medical"></i>Historial Médico</a></li>
+                    <li><a href="" style="margin-top: 180px;"><i class="fa-solid fa-right-from-bracket"></i>Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="content">
+            <header>
+                <h1><i class="fa-solid fa-hospital"></i>Consulta Médica</h1>
+            </header>
+            <section class="datos-paciente">
+                <h2>Datos del Paciente</h2>
+                
+                <div class="info-paciente">
+                    <label for=""><strong>Nombre:</strong></label>
+                    <p>Albán Chávez Melanie Elizabeth</p>
+                </div>
+                <div class="info-paciente">
+                    <label for=""><strong>Edad:</strong></label>
+                    <p>21 años - Femenino</p>
+                </div>
+                <div class="info-paciente">
+                    <label for=""><strong>Fecha:</strong></label>
+                    <p>24-11-2024</p>
+                </div>
+                
+                <button class="boton-terminar"><i class="fa-solid fa-check"></i>Terminar</button>
+            </section>
+            
+            <section class="nav-consulta">
+                <div class="opt-nav">
+                    <nav>
+                        <ul>
+                            <li style="background-color: #e0e0e0" class="consulta"><i class="fa-solid fa-stethoscope"></i>Consulta Médica</li>
+                            <li><i class="fa-solid fa-receipt"></i>Receta Médica</li>
+                            <li><i class="fa-solid fa-book-medical"></i>Historial Médico</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="signos-vitales">
+                    <h3>Signos Vitales</h3>
+                    <form>
+                        <label for="altura">Altura</label>
+                        <input type="text" id="altura" name="altura">
+                        
+                        <label for="peso">Peso</label>
+                        <input type="text" id="peso" name="peso">
+                        
+                        <label for="fc">F.C</label>
+                        <input type="text" id="fc" name="fc">
+                        
+                        <label for="temp">Temperatura</label>
+                        <input type="text" id="temp" name="temp">
+                        
+                        <label for="pa">P.A</label>
+                        <input type="text" id="pa" name="pa">
+                        
+                        <label for="otro">Otro</label>
+                        <input type="text" id="otro" name="otro">
+                    </form>
+
+                </div>
+                <div class="diagnosticos">
+                    <div class="diagnostico">
+                        <h3>Diagnóstico</h3>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div class="detalle">
+                        <h3>Detalle del Diagnóstico</h3>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                </div>
+               
+            </section>
+            <button class="boton-guardar"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
+            <button class="boton-cancelar"><i class="fa-solid fa-x"></i>Cancelar</button>
+        </div>
+    </div>
+</body>
+
+</html>
